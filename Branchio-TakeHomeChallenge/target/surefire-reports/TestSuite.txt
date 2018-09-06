@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.445 s <<< FAILURE! - in TestSuite
+VerifyEmployeeCount_FromCategoryTabsVsAllTab(branch.Branch)  Time elapsed: 10.482 s  <<< FAILURE!
+java.lang.AssertionError:  Employees count from All tab and Rest of the Tabs doesnt match expected [124] but found [119]
+	at branch.Branch.VerifyEmployeeCount_FromCategoryTabsVsAllTab(Branch.java:102)
+
+EmployeesMissingUnderCategories(branch.Branch)  Time elapsed: 3.403 s  <<< FAILURE!
+java.lang.AssertionError:  Employees details from All tab and Rest of the Tabs doesnt match expected [0] but found [5]
+	at branch.Branch.EmployeesMissingUnderCategories(Branch.java:109)
+

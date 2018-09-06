@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Branch Automation tests</th></tr>
+<tr><td><a href="#t0">Regression test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">2</td><td class="num">125,230</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Branch Automation tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">branch.Branch</td><td><a href="#m0">EmployeesMissingUnderCategories</a></td><td rowspan="1">1536270808749</td><td rowspan="1">3404</td></tr><tr class="failedeven"><td><a href="#m1">VerifyEmployeeCount_FromCategoryTabsVsAllTab</a></td><td rowspan="1">1536270798265</td><td rowspan="1">10475</td></tr><tr><th colspan="4">Regression test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">branch.Branch</td><td><a href="#m2">ClickAndVerifyLinkOfCategoryTabs</a></td><td rowspan="1">1536270815566</td><td rowspan="1">43117</td></tr><tr class="passedeven"><td><a href="#m3">ClickTeamLinkAtBottom</a></td><td rowspan="1">1536270786404</td><td rowspan="1">4624</td></tr><tr class="passedeven"><td><a href="#m4">ComparingCategoryNamesOfemployees</a></td><td rowspan="1">1536270812154</td><td rowspan="1">3412</td></tr><tr class="passedeven"><td><a href="#m5">GetCategoryAndEmployeesList</a></td><td rowspan="1">1536270791030</td><td rowspan="1">7234</td></tr><tr class="passedeven"><td><a href="#m6">NavigatingToHomePageByClickingCompanyLogo</a></td><td rowspan="1">1536270889359</td><td rowspan="1">8581</td></tr><tr class="passedeven"><td><a href="#m7">OpenBranchSiteAndVerifyURL</a></td><td rowspan="1">1536270774983</td><td rowspan="1">11415</td></tr><tr class="passedeven"><td><a href="#m8">Print_CoFoundersNames</a></td><td rowspan="1">1536270858684</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m9">VerifyRequestDemoURL_FromDifferentScreens</a></td><td rowspan="1">1536270858685</td><td rowspan="1">30673</td></tr></tbody>
+</table>
+<h2>Regression test</h2><h3 id="m0">branch.Branch#EmployeesMissingUnderCategories</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Employees details from All tab and Rest of the Tabs doesnt match expected [0] but found [5]
+	at baseFunctions.BusinessLayer.ComparingEmployeesName_FromAllTabVsCategoryTab(BusinessLayer.java:79)
+	at branch.Branch.EmployeesMissingUnderCategories(Branch.java:109)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">branch.Branch#VerifyEmployeeCount_FromCategoryTabsVsAllTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Employees count from All tab and Rest of the Tabs doesnt match expected [124] but found [119]
+	at baseFunctions.BusinessLayer.VerifyEmployeeCount_FromAllTabVsCategoryTab(BusinessLayer.java:46)
+	at branch.Branch.VerifyEmployeeCount_FromCategoryTabsVsAllTab(Branch.java:102)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">branch.Branch#ClickAndVerifyLinkOfCategoryTabs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">branch.Branch#ClickTeamLinkAtBottom</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">branch.Branch#ComparingCategoryNamesOfemployees</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">branch.Branch#GetCategoryAndEmployeesList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">branch.Branch#NavigatingToHomePageByClickingCompanyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">branch.Branch#OpenBranchSiteAndVerifyURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">branch.Branch#Print_CoFoundersNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">branch.Branch#VerifyRequestDemoURL_FromDifferentScreens</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

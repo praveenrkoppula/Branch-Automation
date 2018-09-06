@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Branch Automation tests]">
+  <test thread-count="5" verbose="0" name="Regression test(failed)">
+    <parameter name="password" value="password"/>
+    <parameter name="username" value="testmail@gmail.com"/>
+    <classes>
+      <class name="branch.Branch">
+        <methods>
+          <include name="init"/>
+          <include name="getResult"/>
+          <include name="VerifyEmployeeCount_FromCategoryTabsVsAllTab"/>
+          <include name="tearDown"/>
+          <include name="EmployeesMissingUnderCategories"/>
+          <include name="setUp"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- branch.Branch -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [Branch Automation tests] -->

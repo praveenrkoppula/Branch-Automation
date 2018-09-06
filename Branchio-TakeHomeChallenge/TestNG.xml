@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Branch Automation tests">
+	<test name="Regression test">		
+		<parameter name="username" value="testmail@gmail.com"/>
+		<parameter name="password" value="password"/>
+		<classes>
+			<class name ="branch.Branch">
+			<methods>
+				<include name="OpenBranchSiteAndVerifyURL" />
+				<include name="ClickTeamLinkAtBottom" />
+				<include name="GetCategoryAndEmployeesList" />
+				<include name="VerifyEmployeeCount_FromCategoryTabsVsAllTab" />
+				<include name="EmployeesMissingUnderCategories" />
+				<include name="ComparingCategoryNamesOfemployees" />
+				<include name="ClickAndVerifyLinkOfCategoryTabs" />				
+				<include name="Print_CoFoundersNames" />
+				<include name="VerifyRequestDemoURL_FromDifferentScreens" />
+				<include name="NavigatingToHomePageByClickingCompanyLogo" />				
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
