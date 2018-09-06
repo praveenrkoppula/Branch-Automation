@@ -26,5 +26,5 @@ Test scenarios:
 
 Report:
 ------------------
-Name : 
+Name : BranchioAutomation_ExtentReport.html
 Location: Directly under the root directory (Along with POM.xml)
