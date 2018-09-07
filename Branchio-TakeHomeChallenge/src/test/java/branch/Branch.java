@@ -85,8 +85,7 @@ public class Branch extends ExtentReporting{
 	public void GetCategoryAndEmployeesList() throws InterruptedException
 	{
 		logger=extent.createTest("GetCategoryAndEmployeesList", "Get Category List And Employees List");
-		logger.info("Screen scrolled to see the teams ");
-
+		
 		 //Creating Category list		
 		 categoryList = base.CategoryList(driver);	
 		 //Creating employees names&category map from All tab
