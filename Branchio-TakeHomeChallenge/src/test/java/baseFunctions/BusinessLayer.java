@@ -159,7 +159,7 @@ public class BusinessLayer extends ExtentReporting{
 	}catch(NoSuchElementException e)
 	  	{
 			//logger.info(e);
-			logger.log(Status.FAIL,"Company logo is NOT found as its missing in Sign in page, which is present in all other screens");
+			logger.log(Status.FAIL,"Company logo missing in Sign in page, which is present in all other screens-Inconsitency");
 
 	  	}
 	}
